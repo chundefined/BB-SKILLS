@@ -13,6 +13,7 @@ Smart contract source code (Solidity, Vyper, Rust), EVM bytecode, transaction ca
 | Skill | Language | Impact | Path |
 |---|---|---|---|
 | DoS via Unbounded Gas Consumption in Loops | Solidity | High — Permanent Function Lockout | `dos-unbounded-gas-loop/SKILL.md` |
+| Missing Zero-Address Validation | Solidity | High — Irreversible Fund Loss | `zero-address-validation/SKILL.md` |
 
 ---
 
@@ -27,6 +28,14 @@ What is the smart contract vulnerability class?
 │   │   └── → dos-unbounded-gas-loop/SKILL.md
 │   │
 │   └── Other gas griefing patterns?
+│       └── → [COMING SOON]
+│
+├── Input Validation (missing checks, zero address)?
+│   │
+│   ├── Missing zero-address check on critical address setters?
+│   │   └── → zero-address-validation/SKILL.md
+│   │
+│   └── Other input validation issues?
 │       └── → [COMING SOON]
 │
 ├── Reentrancy (external call + state change)?

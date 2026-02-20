@@ -25,6 +25,7 @@ Any target involving: blockchain networks, consensus engines, smart contracts, D
 | Vulnerability | Severity | Path |
 |---|---|---|
 | DoS via Unbounded Gas Consumption in Loops | High | `smart-contracts/dos-unbounded-gas-loop/SKILL.md` |
+| Missing Zero-Address Validation | High | `smart-contracts/zero-address-validation/SKILL.md` |
 
 ### DeFi Protocol Vulnerabilities
 **Path:** `defi/SKILL.md`
