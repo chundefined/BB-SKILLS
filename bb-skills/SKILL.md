@@ -23,7 +23,8 @@ bugbounty/
     ├── defi/                      ← AMMs, DEX, Lending, MEV, Economic Exploits
     │   └── frontrunning-sandwich-attack/ ← Tx frontrunning & sandwich attacks
     └── smart-contracts/           ← Solidity, Vyper, Rust/Anchor logic flaws
-        └── dos-unbounded-gas-loop/    ← DoS via unbounded loop gas consumption
+        ├── dos-unbounded-gas-loop/    ← DoS via unbounded loop gas consumption
+        └── zero-address-validation/   ← Missing zero-address check → fund loss
 ```
 
 ---
@@ -34,6 +35,7 @@ bugbounty/
 |---|---|---|
 | Blockchain network with BFT/QBFT/IBFT consensus | Web3 → Consensus | `web3/consensus/SKILL.md` |
 | Solidity/EVM smart contract, gas DoS, loop vulnerability | Web3 → Smart Contracts | `web3/smart-contracts/SKILL.md` |
+| Smart contract missing zero-address validation, fund loss to burn address | Web3 → Smart Contracts | `web3/smart-contracts/zero-address-validation/SKILL.md` |
 | DeFi protocol, AMM, DEX, MEV, frontrunning, sandwich | Web3 → DeFi | `web3/defi/SKILL.md` |
 | Smart contract logic flaws | Web3 | `web3/SKILL.md` |
 | DeFi protocol, AMM, lending protocol | Web3 | `web3/SKILL.md` |
