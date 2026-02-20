@@ -17,9 +17,11 @@ This is the root dispatcher for all bug bounty skills. Read this first to naviga
 
 ```
 bugbounty/
-└── web3/              ← Blockchain, DeFi, Smart Contracts, Consensus
-    └── consensus/     ← BFT, PoS, PoW consensus engine vulnerabilities
-        └── bft-validator-threshold/  ← Insufficient validator quorum
+└── web3/                          ← Blockchain, DeFi, Smart Contracts, Consensus
+    ├── consensus/                 ← BFT, PoS, PoW consensus engine vulnerabilities
+    │   └── bft-validator-threshold/   ← Insufficient validator quorum
+    └── smart-contracts/           ← Solidity, Vyper, Rust/Anchor logic flaws
+        └── dos-unbounded-gas-loop/    ← DoS via unbounded loop gas consumption
 ```
 
 ---
@@ -29,6 +31,7 @@ bugbounty/
 | Target Description | Category | Path |
 |---|---|---|
 | Blockchain network with BFT/QBFT/IBFT consensus | Web3 → Consensus | `web3/consensus/SKILL.md` |
+| Solidity/EVM smart contract, gas DoS, loop vulnerability | Web3 → Smart Contracts | `web3/smart-contracts/SKILL.md` |
 | Smart contract logic flaws | Web3 | `web3/SKILL.md` |
 | DeFi protocol, AMM, lending protocol | Web3 | `web3/SKILL.md` |
 | Node software, P2P layer, mempool | Web3 | `web3/SKILL.md` |

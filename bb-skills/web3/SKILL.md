@@ -18,6 +18,14 @@ Any target involving: blockchain networks, consensus engines, smart contracts, D
 |---|---|---|
 | BFT Insufficient Validator Threshold | Critical | `consensus/bft-validator-threshold/SKILL.md` |
 
+### Smart Contract Vulnerabilities
+**Path:** `smart-contracts/SKILL.md`
+**Use when:** Target is a Solidity, Vyper, or Rust/Anchor smart contract with logic flaws, DoS vectors, or state manipulation bugs.
+
+| Vulnerability | Severity | Path |
+|---|---|---|
+| DoS via Unbounded Gas Consumption in Loops | High | `smart-contracts/dos-unbounded-gas-loop/SKILL.md` |
+
 ---
 
 ## Routing Logic
@@ -29,7 +37,7 @@ Is the vulnerability in...
 │   └── → consensus/SKILL.md
 │
 ├── Smart Contract (Solidity, Vyper, Rust/Anchor)?
-│   └── → [COMING SOON] smart-contracts/SKILL.md
+│   └── → smart-contracts/SKILL.md
 │
 ├── DeFi Protocol (AMM, lending, liquidation)?
 │   └── → [COMING SOON] defi/SKILL.md
