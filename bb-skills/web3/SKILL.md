@@ -26,6 +26,14 @@ Any target involving: blockchain networks, consensus engines, smart contracts, D
 |---|---|---|
 | DoS via Unbounded Gas Consumption in Loops | High | `smart-contracts/dos-unbounded-gas-loop/SKILL.md` |
 
+### DeFi Protocol Vulnerabilities
+**Path:** `defi/SKILL.md`
+**Use when:** Target is a DeFi protocol, AMM, DEX router, lending protocol, or any on-chain financial primitive with economic exploit vectors, MEV risks, or price manipulation bugs.
+
+| Vulnerability | Severity | Path |
+|---|---|---|
+| Transaction Frontrunning & Sandwich Attacks | High | `defi/frontrunning-sandwich-attack/SKILL.md` |
+
 ---
 
 ## Routing Logic
@@ -39,8 +47,8 @@ Is the vulnerability in...
 ├── Smart Contract (Solidity, Vyper, Rust/Anchor)?
 │   └── → smart-contracts/SKILL.md
 │
-├── DeFi Protocol (AMM, lending, liquidation)?
-│   └── → [COMING SOON] defi/SKILL.md
+├── DeFi Protocol (AMM, lending, liquidation, MEV)?
+│   └── → defi/SKILL.md
 │
 ├── Bridge / Cross-chain?
 │   └── → [COMING SOON] bridges/SKILL.md

@@ -41,8 +41,11 @@ What is the smart contract vulnerability class?
 ├── Oracle Manipulation / Price Feed Attack?
 │   └── → [COMING SOON] oracle-manipulation/SKILL.md
 │
-└── Flash Loan / Economic Exploit?
-    └── → [COMING SOON] flash-loan/SKILL.md
+├── Flash Loan / Economic Exploit?
+│   └── → [COMING SOON] flash-loan/SKILL.md
+│
+└── MEV / Frontrunning / Sandwich Attack?
+    └── → ../defi/SKILL.md (different sub-category)
 ```
 
 ---
