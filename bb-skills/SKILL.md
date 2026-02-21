@@ -17,6 +17,9 @@ This is the root dispatcher for all bug bounty skills. Read this first to naviga
 
 ```
 bugbounty/
+├── web2/                          ← Traditional Web Apps, REST APIs, Admin Panels
+│   └── broken-access-control/    ← Auth bypass, IDOR, path traversal, privilege escalation
+│       └── auth-bypass-header-stripping-file-overwrite/ ← Bearer stripping + path traversal RCE
 └── web3/                          ← Blockchain, DeFi, Smart Contracts, Consensus
     ├── consensus/                 ← BFT, PoS, PoW consensus engine vulnerabilities
     │   └── bft-validator-threshold/   ← Insufficient validator quorum
@@ -33,6 +36,9 @@ bugbounty/
 
 | Target Description | Category | Path |
 |---|---|---|
+| Admin panel (React/Vue/Angular) with JWT Bearer auth + file upload endpoint | Web2 → Broken Access Control | `web2/broken-access-control/SKILL.md` |
+| Authorization header stripping bypass or loose Bearer scheme validation | Web2 → Broken Access Control | `web2/broken-access-control/auth-bypass-header-stripping-file-overwrite/SKILL.md` |
+| File upload endpoint with user-controlled path parameter (`fullFilePath`, `filename`, `dest`) | Web2 → Broken Access Control | `web2/broken-access-control/auth-bypass-header-stripping-file-overwrite/SKILL.md` |
 | Blockchain network with BFT/QBFT/IBFT consensus | Web3 → Consensus | `web3/consensus/SKILL.md` |
 | Solidity/EVM smart contract, gas DoS, loop vulnerability | Web3 → Smart Contracts | `web3/smart-contracts/SKILL.md` |
 | Smart contract missing zero-address validation, fund loss to burn address | Web3 → Smart Contracts | `web3/smart-contracts/zero-address-validation/SKILL.md` |
