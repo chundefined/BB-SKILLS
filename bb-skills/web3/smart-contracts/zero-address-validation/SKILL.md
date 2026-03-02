@@ -1,3 +1,8 @@
+---
+name: bb-zero-address-validation
+description: Smart contract security skill for detecting missing zero-address validation vulnerabilities. Use when a Solidity contract has setOwner, setToken, initialize, or transfer functions that accept address parameters without validating against address(0), causing permanent fund loss to the burn address. Covers recon, detection patterns, exploitation, and PoC. See references/ for report template.
+---
+
 # Skill: Smart Contract — Missing Zero-Address Validation (Irreversible Fund Loss)
 
 ## 0. When to Use This Skill

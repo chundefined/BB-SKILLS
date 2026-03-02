@@ -1,3 +1,9 @@
+---
+name: bb-web2
+description: Web2 bug bounty skills index for traditional web application security. Reference when the target is a web app, REST API, admin panel, authentication system, or file upload endpoint. Routes to broken-access-control, injection, file upload, and auth vulnerability sub-skills.
+user-invocable: false
+---
+
 # Web2 Bug Bounty Skills — Category Index
 
 ## Purpose

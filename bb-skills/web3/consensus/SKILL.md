@@ -1,3 +1,9 @@
+---
+name: bb-web3-consensus
+description: Consensus engine vulnerability skills index for blockchain security. Reference when the target is a blockchain node, validator network, BFT/QBFT/IBFT consensus implementation, PoS validator logic, or fork-choice rule. Routes to bft-validator-threshold and other consensus skills.
+user-invocable: false
+---
+
 # Consensus Engine Vulnerabilities — Sub-Category Index
 
 ## Purpose

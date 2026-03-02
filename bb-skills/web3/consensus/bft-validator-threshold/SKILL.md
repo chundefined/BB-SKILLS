@@ -1,3 +1,8 @@
+---
+name: bb-bft-validator-threshold
+description: Smart contract and consensus security skill for exploiting BFT insufficient validator threshold vulnerabilities. Use when a blockchain uses BFT/QBFT/IBFT/Tendermint consensus and the quorum calculation is below the required 2F+1 threshold, enabling double-spend, chain fork, or safety violations. Covers detection, exploitation, and PoC. See references/ for report template and deep-dive analysis.
+---
+
 # Skill: BFT Consensus — Insufficient Validator Threshold for Finality
 
 ## 0. When to Use This Skill

@@ -1,3 +1,9 @@
+---
+name: bb-skills
+description: Bug bounty security research assistant and vulnerability skills dispatcher. Load automatically when the user provides a security target, bug bounty scope, codebase to audit, CVE to replicate, or asks to find vulnerabilities, write PoCs, assess exploitability, or draft security reports. Covers Web2 (auth bypass, IDOR, file upload, broken access control) and Web3 (smart contracts, DeFi MEV, consensus layer). Always read this file first to route to the correct sub-skill before analyzing any target.
+user-invocable: false
+---
+
 # Bug Bounty Skills — Master Index
 
 ## Purpose
@@ -59,5 +65,7 @@ bugbounty/
 ## Adding New Skills
 When creating a new skill, follow this structure:
 1. Create directory: `bugbounty/<category>/<subcategory>/<vuln-name>/SKILL.md`
-2. Update the category index SKILL.md to list the new skill.
-3. Update this root dispatcher routing table.
+2. Add YAML frontmatter with `name` and `description` to the new SKILL.md.
+3. Create `references/` for supporting docs and `scripts/` for executable PoC code.
+4. Update the category index SKILL.md to list the new skill.
+5. Update this root dispatcher routing table.

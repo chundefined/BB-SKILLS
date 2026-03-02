@@ -1,3 +1,9 @@
+---
+name: bb-web3
+description: Web3 bug bounty skills index for blockchain and DeFi security. Reference when the target is a smart contract, DeFi protocol, AMM, DEX, consensus node, bridge, or oracle. Routes to smart-contracts, defi, or consensus sub-category skills.
+user-invocable: false
+---
+
 # Web3 Bug Bounty Skills — Category Index
 
 ## Purpose

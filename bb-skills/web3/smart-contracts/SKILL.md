@@ -1,3 +1,9 @@
+---
+name: bb-web3-smart-contracts
+description: Smart contract vulnerability skills index for blockchain security. Reference when auditing Solidity, Vyper, or Rust/Anchor smart contracts for logic flaws, DoS vectors, state manipulation, missing validations, or fund loss bugs. Routes to dos-unbounded-gas-loop, zero-address-validation, and other contract skills.
+user-invocable: false
+---
+
 # Smart Contract Vulnerabilities — Sub-Category Index
 
 ## Purpose

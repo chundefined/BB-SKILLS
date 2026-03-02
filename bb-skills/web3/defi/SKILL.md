@@ -1,3 +1,9 @@
+---
+name: bb-web3-defi
+description: DeFi protocol vulnerability skills index for blockchain security. Reference when the target is a DeFi protocol, AMM, DEX router, lending protocol, yield aggregator, or any on-chain financial primitive. Routes to frontrunning, sandwich attack, oracle manipulation, and MEV skills.
+user-invocable: false
+---
+
 # DeFi Protocol Vulnerabilities — Sub-Category Index
 
 ## Purpose

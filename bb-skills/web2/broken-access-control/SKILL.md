@@ -1,3 +1,9 @@
+---
+name: bb-web2-access-control
+description: Broken access control skills index for web2 bug bounty. Reference when target has authentication bypass, authorization bypass, IDOR, path traversal, JWT manipulation, or privilege escalation. Routes to specific vulnerability skills under broken-access-control/.
+user-invocable: false
+---
+
 # Web2 — Broken Access Control Skills Index
 
 ## Purpose

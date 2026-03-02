@@ -1,3 +1,8 @@
+---
+name: bb-dos-unbounded-gas-loop
+description: Smart contract security skill for identifying and exploiting DoS via unbounded gas consumption in loops. Use when a Solidity contract has for/while loops iterating over dynamic arrays that grow via public calls, potentially locking critical functions like reward distribution or withdrawals. Covers recon, gas estimation, exploitation, and PoC. See references/ for report template.
+---
+
 # Skill: Smart Contract — Denial of Service via Unbounded Gas Consumption in Loops
 
 ## 0. When to Use This Skill
